@@ -12,3 +12,16 @@ Note: This is a gamified environment where the end goal is to gain unrestricted 
 
 You will receive an email with a gift card that you can redeem on [Hackthebox](https://app.hackthebox.com) - instructions on how to redeem and create your account should be delivered in the same email.
 
+Once you have your account made, navigate back to to the [labs home page]([Hack The Box :: Dashboard](https://app.hackthebox.com/home)) and click lab access at the top right. You'll need to download your VPN pack to gain access to the lab infrastructure.
+- Select **Machines**
+- For **VPN Access** choose `US-VIP+`
+- For **VPN Server** choose `US VIP+ 1`
+- For **Protocol** choose `UDP 1337`
+- Download ![[Pasted image 20230216111212.png]]
+
+## Setting up a kali vm
+
+- Download and install [VMWare Workstation Player]([VMware Workstation Player | VMware](https://www.vmware.com/products/workstation-player.html))
+- Download the [Kali VMWare image]([Get Kali | Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines))
+- ![[Pasted image 20230216112529.png]]
+- 
