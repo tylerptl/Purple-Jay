@@ -12,7 +12,7 @@ Note: This is a gamified environment where the end goal is to gain unrestricted 
 On your windows PC, perform the following:
 - Download and install [VMWare Workstation Player]([VMware Workstation Player | VMware](https://www.vmware.com/products/workstation-player.html))
 - Download the [Kali VMWare image]([Get Kali | Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines))
-- ![[assets/Pasted image 20230216112529.png]]
+- ![a](assets/Pasted%20image%2020230216112529.png)
 - To install, follow the instructions found in the docs linked at the [bottom of the download]([Import Pre-Made Kali VMware VM | Kali Linux Documentation](https://www.kali.org/docs/virtualization/import-premade-vmware/))
 - Once installed, start the VM and connect as the user `kali` with a password of `kali` (default credentials)
 	- You can change these if you want, but for the sake of the CTF this isnt required.
