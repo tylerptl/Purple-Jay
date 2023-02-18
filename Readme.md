@@ -28,7 +28,7 @@ After receiving your login information for [Hackthebox](https://app.hackthebox.c
 - For **VPN Access** choose `US-VIP+`
 - For **VPN Server** choose `US VIP+ 1`
 - For **Protocol** choose `UDP 1337`
-- Download ![][/Assets/Pasted%20image%2020230216111212.png]
+- Download ![](/Assets/Pasted%20image%2020230216111212.png)
 - Its recommended that you create a specific folder to store all CTF related artifacts including this `.ovpn` file.
 	- Ex. In a kali terminal type `mkdir ~/Documents/ctf` and use that directory to store your scripts, findings, notes, etc.
 - Once you have downloaded the `.ovpn` vpn pack, connect to the network by issuing `sudo openvpn NAME_OF_OVPN_FILE` in your terminal, and entering your kali password when prompted (default password is kali).
