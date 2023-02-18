@@ -8,20 +8,27 @@ Note: This is a gamified environment where the end goal is to gain unrestricted 
 
 ## Getting Started
 
+## Setting up a kali vm
+On your windows PC, perform the following:
+- Download and install [VMWare Workstation Player]([VMware Workstation Player | VMware](https://www.vmware.com/products/workstation-player.html))
+- Download the [Kali VMWare image]([Get Kali | Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines))
+- ![[Pasted image 20230216112529.png]]
+- To install, follow the instructions found in the docs linked at the [bottom of the download]([Import Pre-Made Kali VMware VM | Kali Linux Documentation](https://www.kali.org/docs/virtualization/import-premade-vmware/))
+- Once installed, start the VM and connect as the user `kali` with a password of `kali` (default credentials)
+	- You can change these if you want, but for the sake of the CTF this isnt required.
+- Once connected, open the terminal in the top left corner of your screen and type `sudo apt update && sudo apt full-upgrade -y`
+	- You may be prompted to allow install, or restart a service - in all cases, accept.
+- With this done, your kali VM is fully up to date and ready to use.
+
 ### Getting setup on Hackthebox
 
-You will receive an email with a gift card that you can redeem on [Hackthebox](https://app.hackthebox.com) - instructions on how to redeem and create your account should be delivered in the same email.
+After receiving your login information for [Hackthebox](https://app.hackthebox.com), navigate to the labs home page and click lab access at the top right. You'll need to download your VPN pack to gain access to the lab infrastructure.
 
-Once you have your account made, navigate back to to the [labs home page]([Hack The Box :: Dashboard](https://app.hackthebox.com/home)) and click lab access at the top right. You'll need to download your VPN pack to gain access to the lab infrastructure.
 - Select **Machines**
 - For **VPN Access** choose `US-VIP+`
 - For **VPN Server** choose `US VIP+ 1`
 - For **Protocol** choose `UDP 1337`
 - Download ![[Pasted image 20230216111212.png]]
-
-## Setting up a kali vm
-
-- Download and install [VMWare Workstation Player]([VMware Workstation Player | VMware](https://www.vmware.com/products/workstation-player.html))
-- Download the [Kali VMWare image]([Get Kali | Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines))
-- ![[Pasted image 20230216112529.png]]
+- Its recommended that you create a specific folder to store all CTF related artifacts including this `.ovpn` file.
+	- Ex. In a kali terminal type `mkdir ~/Documents/ctf` and use that directory to store your scripts, findings, notes, etc.
 - 
