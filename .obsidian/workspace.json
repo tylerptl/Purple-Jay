@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "18a6f6c6d3694997",
+    "id": "7adf7b24f5fd0786",
     "type": "split",
     "children": [
       {
-        "id": "ce6f0d5ea21105ef",
+        "id": "ba6f84785ddec54b",
         "type": "tabs",
         "children": [
           {
-            "id": "0d21870360b263de",
+            "id": "2b64c204e66ae170",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "61ca104afc2f39e3",
+    "id": "a6eaa6e79cfa1226",
     "type": "split",
     "children": [
       {
-        "id": "62c7644312036c08",
+        "id": "576baf000933181d",
         "type": "tabs",
         "children": [
           {
-            "id": "74d0e66c468bd135",
+            "id": "83cc2ca88cd50d34",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "ef3a1891efa69b23",
+            "id": "eb39e8c0cf047dad",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "55c75d86d4010943",
+            "id": "d616b2f48d8fbc3a",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -72,15 +72,15 @@
     "width": 300
   },
   "right": {
-    "id": "44c599248cb8b479",
+    "id": "b1ca437515c6fc61",
     "type": "split",
     "children": [
       {
-        "id": "36534760bc8fa1b0",
+        "id": "94acaac35f0b7770",
         "type": "tabs",
         "children": [
           {
-            "id": "916aafdcaed837ba",
+            "id": "fb549a9f9de20555",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -97,7 +97,7 @@
             }
           },
           {
-            "id": "c2c763efef03b6d9",
+            "id": "585f8982bd59ca3d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "202209575ea1a00b",
+            "id": "199359276f33f143",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,7 +120,7 @@
             }
           },
           {
-            "id": "58b9440317cc615e",
+            "id": "40d7d55cb0ac8c16",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -146,16 +146,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d21870360b263de",
+  "active": "2b64c204e66ae170",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Untitled.md",
-    "Writeups/Postman/Writeup.md",
-    "Writeups/Forest.md"
-=======
-    "Readme.md",
-    "Writeups/Forest.md",
-    "Writeups/Postman/Writeup.md"
->>>>>>> 62c938eaff5403c99388683176d9e9c1b5844864
+    "Writeup.pdf"
   ]
 }
