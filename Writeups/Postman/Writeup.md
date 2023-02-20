@@ -1,10 +1,12 @@
-# Required tools
+# Overview
+
+## Recommended tools
 - [feroxbuster](https://github.com/epi052/feroxbuster) : any directory buster will do (gobuster, dirb, dirbuster, etc.)
-- nmap: installed by default on kali
+- nmap: A network scanner installed by default on kali. Can be used to identify running service, gather information on hosts, fingerprint services, and much more.
 - redis-cli: Install by running `sudo apt-get install redis-tools` in terminal
 - [linPEAS](https://github.com/carlospolop/PEASS-ng): A well maintained local enumeration script. Part of the PEASS suite which also covers windows local enumeration.
-# OWASP Threats
-- [Security Misconfiguration](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)
+## OWASP Threats
+- [A05:2021 – Security Misconfiguration](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)
 - 
 # Initial enumeration
 - nmap reveals two webpages, and [redis](https://book.hacktricks.xyz/network-services-pentesting/6379-pentesting-redis) listening on `6379`
