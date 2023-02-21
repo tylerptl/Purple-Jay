@@ -145,7 +145,3 @@ Postman is a linux machine featuring a service running without requiring authent
 	- `which python`
 	- `python -c 'import pty;pty.spawn("/bin/bash")'`
 - ![](Pasted%20image%2020230215211514.png)
-
-
-# Takeaways
-- 

@@ -91,11 +91,21 @@ PORT     STATE SERVICE  REASON  VERSION
 	* Turns out its not a script and would best be viewed in something like `Ghidra` or `IDA Pro` to get a look at the source code. However, a quick and dirty way to try and game the system is to simply `cat` the file and see if *anything* is readable.
 		* Turns out the password for the command is embedded in clear text - `sample`
 * ![](Pasted%20image%2020221204183420.png)
-* `Sample` works for the master pass
+* `Sample` works for the master pass - after submitting this password, we get credentials for a new user `deploy`. Once again, it would be best practice to blast these credentials out against the network but since this is a standalone machine we really only need to test SSH.
 * ![](Pasted%20image%2020221204183513.png)
+* Success
 * ![](Pasted%20image%2020221204183547.png)
-* https://book.hacktricks.xyz/linux-hardening/privilege-escalation/docker-breakout/docker-breakout-privilege-escalation
+
+ ## Escalation from deploy -> root
+ - First thing to do after becoming a new user is to enumerate:
+	 - who they are
+	 - what groups they are 
+	 - what sudo privs they have
+	 - non-standard services, cronjobs, processes, etc.
+ - In this case, we issue the `id` command and see that the user is part of the `docker` group - we reference `hacktricks` for any quick wins and come across a [break out attack](https://book.hacktricks.xyz/linux-hardening/privilege-escalation/docker-breakout/docker-breakout-privilege-escalation) that leads to `root` access on the host. 
 * ![](Pasted%20image%2020221204183624.png)
+  - To execute the attack, run the following:
+	  - `docker run -t -v /:/host/ alpine chroot /host/ bash`
 * ![](Pasted%20image%2020221204183649.png)
 
 
