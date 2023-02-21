@@ -1,7 +1,15 @@
 # Overview
+Shoppy is a linux machine susceptible to injection as a result of a lack of user input sanitization. This insecure design leads to a web portal which when enumerated reveals too much information to the end user. This information can be leveraged to compromise another more privileged user's account. With these privileges, its possible to exploit local services that do not follow the principle of least privilege, and are not patched accordingly, to gain root privileges over the machine. 
+
+## Recommended tools
+ [feroxbuster](https://github.com/epi052/feroxbuster) : any directory buster will do (gobuster, dirb, dirbuster, etc.)
+- nmap: A network scanner installed by default on kali. Can be used to identify running service, 
+- [linPEAS](https://github.com/carlospolop/PEASS-ng): A well maintained local enumeration script. Part of the PEASS suite which also covers windows local enumeration.
+- [ffuf](https://www.kali.org/tools/ffuf/): A fast and highly customizeable web fuzzer that allows for discovery of: directories, virtual hosts, injectable parameters, and more. [Usage](https://github.com/ffuf/ffuf)
 
 ## OWASP Top 10 
 
+- [A03:2021 – Injection](https://owasp.org/Top10/A03_2021-Injection/)
 - [A04 Insecure Design - OWASP Top 10:2021](https://owasp.org/Top10/A04_2021-Insecure_Design/)
 - [A07 Identification and Authentication Failures - OWASP Top 10:2021](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
 

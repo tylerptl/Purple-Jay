@@ -1,4 +1,5 @@
 # Overview
+Forest is a domain joined windows machine susceptible to data exposure and offline credential attacks. Once foothold has been established by cracking the leaked credential, deeper enumeration of the domain is required to successfully exploit the inheritance relationships of Windows Active Directory groups. Once this step has been completed, the attacker should be able to use these privileges to escalate to a Domain Admin account.
 
 ## Recommended tools
 - nmap: A network scanner installed by default on kali. Can be used to identify running service, gather information on hosts, fingerprint services, and much more.
