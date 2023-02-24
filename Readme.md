@@ -44,5 +44,5 @@ Now that you are on the Hackthebox lab network, you'll need to instantiate a mac
 The labs will be comprised of the following machines:
 - [Shoppy](https://app.hackthebox.com/machines/496)
 - [Postman](https://app.hackthebox.com/machines/215)
-- [Photobomb](https://app.hackthebox.com/machines/500)
+- [Squashed](https://app.hackthebox.com/machines/514)
 - [Forest](https://app.hackthebox.com/machines/212)
